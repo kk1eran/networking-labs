@@ -14,3 +14,38 @@ name Management
 vlan 100
 name Native
 
+Access ports
+interface f0/1
+switchport mode access
+switchport access vlan 10
+no shutdown
+
+interface f0/2
+switchport mode access
+switchport access vlan 20
+no shutdown
+
+interface f0/3
+switchport mode access
+switchport access vlan 30
+no shutdown
+
+interface f0/4
+switchport mode access
+switchport access vlan 10
+switchport voice vlan 40
+
+interface vlan 99
+ip address 192.168.99.254 255.255.255.0
+no shutdown
+
+Virtual management interface 
+line vty 0 15
+password cisco
+login
+exit
+
+interface g0/2
+switchport mode dynamic auto
+switchport trunk native vlan 100
+no shutdown
