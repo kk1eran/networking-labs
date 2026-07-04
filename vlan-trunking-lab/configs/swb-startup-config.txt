@@ -1,4 +1,3 @@
-
 en
 conf t
 
@@ -14,3 +13,37 @@ vlan 99
 name Management
 vlan 100
 name Native
+
+Virtual management interface 
+line vty 0 15
+password cisco
+login
+exit
+
+Access ports
+interface f0/1
+switchport mode access
+switchport access vlan 10
+no shutdown
+
+interface f0/2
+switchport mode access
+switchport access vlan 20
+no shutdown
+
+interface f0/3
+switchport mode access
+switchport access vlan 30
+no shutdown
+
+for Trunking
+interface g0/1
+switchport mode trunk
+switchport trunk native vlan 100
+switchport nonegotiate
+no shutdown
+
+Vlan 99 management
+interface vlan 99
+ip address 192.168.99.253 255.255.255.0
+no shutdown
