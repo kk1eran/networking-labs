@@ -13,6 +13,7 @@ vlan 99
 name Management
 vlan 100
 name Native
+exit
 
 Virtual management interface 
 line vty 0 15
@@ -47,3 +48,6 @@ Vlan 99 management
 interface vlan 99
 ip address 192.168.99.253 255.255.255.0
 no shutdown
+end
+
+copy run start
