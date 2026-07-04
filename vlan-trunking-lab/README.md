@@ -5,3 +5,5 @@ To configure VLANs and assign it to ports and configure static and dynamic trunk
 
 ## Topology
 ![topology](topology.png)
+
+## Configuration
