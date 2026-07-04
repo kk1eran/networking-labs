@@ -7,3 +7,7 @@ To configure VLANs and assign it to ports and configure static and dynamic trunk
 ![topology](topology.png)
 
 ## Configuration
+
+## Verification
+
+## What I learned / Issues I ran into
