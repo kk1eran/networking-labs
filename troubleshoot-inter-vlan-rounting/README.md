@@ -16,6 +16,7 @@ S1 fixed interface config
 ![S1 interface config](S1-intconf.png)
 
 S1 vlan 3 config
+
 ![S1 vlan3 config](S1-vlan3config.png)
 
 S2 fixed interface config
