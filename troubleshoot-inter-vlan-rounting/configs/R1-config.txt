@@ -1,1 +1,8 @@
+#Commands used to fix the configuration
 
+interface g0/0/1.4
+no encapsulation dot1Q 4 native
+encapsulation dot1Q 4
+
+interface g0/0/1.8
+encapsulation dot1Q 8 native
