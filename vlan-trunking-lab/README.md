@@ -6,7 +6,8 @@ To configure VLANs and assign it to ports and configure static and dynamic trunk
 ## Topology
 ![topology](topology.png)
 
-## Configuration
+## Configuration details
+The needed configuration on this lab is implementing proper switch trunking, correct access ports and assign the right ip addresses to the interface vlan management
 
 ## Verification
 SWB#show vlan brief
