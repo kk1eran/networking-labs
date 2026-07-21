@@ -6,7 +6,7 @@ Troubleshoot vlan problems
 ## Topology
 ![topology](topology.png)
 
-## Configuration
+## Configuration and Verification
 R1 fixed config
 
 ![R1 fixed config](R1-runconfig.png)
@@ -26,7 +26,6 @@ S2 fixed interface config
 S2 vlan 3 config
 
 ![S2 vlan3 config](S2-vlan3config.png)
-## Verification
 
 ## What I learned / Issues I ran into
 
